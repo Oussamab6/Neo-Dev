@@ -1,0 +1,12 @@
+.options-container {
+   flex-wrap: wrap;
+}
+
+.option-button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 8px;
+  border-color: rgb(11, 140, 157);
+  background: transparent;
+  text-align: center;
+}

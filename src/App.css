@@ -1,0 +1,22 @@
+/* .App {
+  position: fixed;
+  text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.chatbot-container {
+  display: flex;
+  text-align: center;
+  bottom: 10%; /* Adjust the bottom value as per your requirement */
+  right: 7%;
+
+  /* Adjust the right value as per your requirement */
+  /* Your other styles for the chatbot container */
+}
+.content-container {
+  display: flex;
+  margin-left: 10rem;
+  max-width: 100%;
+}

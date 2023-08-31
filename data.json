@@ -1,0 +1,403 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time",
+        "Take care",
+        "Farewell",
+        "Have a great day",
+        "Catch you later"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "I appreciate it",
+        "Many thanks",
+        "Thank you so much",
+        "You're amazing"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't know",
+        "Not sure",
+        "Random text",
+        "Blah blah",
+        "Just typing anything",
+        "Lorem ipsum",
+        "Ask me something else",
+        "I'm not sure what to say",
+        "Can you rephrase that?",
+        "I'm unable to answer that",
+        "qfsdhfmqdhfmqskhfioah",
+        " ",
+        "       "
+      ],
+      "responses": [
+        "Sorry, I can't understand you",
+        "Please give me more information",
+        "I'm not sure I understand"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How can you help me?",
+        "What can you do?",
+        "What help do you provide?",
+        "How can you be helpful?",
+        "What support is offered?",
+        "Tell me more about your services",
+        "Explain what you offer",
+        "What assistance can I expect?",
+        "What are your capabilities?",
+        "who are you?"
+      ],
+      "responses": [
+        "I can assist you in creating your own ChatBot app.",
+        "I'm your personal assistant for building your own ChatBot!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "good",
+        "great",
+        "excellent",
+        "amazing",
+        "I'm having a great day!",
+        "Everything is going well.",
+        "Feeling positive and happy.",
+        "Life is good.",
+        "I'm in a good mood.",
+        "you are good",
+        "You're doing great",
+        "I'm satisfied",
+        "It's all good",
+        "I'm pleased"
+      ],
+      "responses": [
+        "That's wonderful to hear!",
+        "I'm glad you're having a good experience!",
+        "Great news! Keep it up!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "excited",
+      "patterns": [
+        "excited",
+        "thrilled",
+        "pumped",
+        "ecstatic",
+        "I'm so excited!",
+        "This is amazing!",
+        "I can't wait!",
+        "I'm on cloud nine!",
+        "So pumped up!",
+        "I'm over the moon",
+        "I'm bursting with excitement",
+        "I'm thrilled beyond words",
+        "This is a dream come true",
+        "I can hardly contain my excitement"
+      ],
+      "responses": [
+        "That's fantastic! I share your excitement!",
+        "I'm thrilled to hear that. How can I contribute to your excitement?",
+        "Woohoo! Let's keep the positive energy going!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "sad",
+        "unhappy",
+        "depressed",
+        "heartbroken",
+        "Feeling down today.",
+        "My heart is heavy.",
+        "It's a tough time for me.",
+        "I'm feeling really low.",
+        "Just feeling sad and overwhelmed.",
+        "I'm in a dark place right now.",
+        "Life feels meaningless.",
+        "I can't shake off this sadness.",
+        "I'm struggling with my emotions.",
+        "I feel lost and empty.",
+        "Every day feels like a battle.",
+        "I'm having a hard time finding joy.",
+        "My sadness is consuming me.",
+        "I've been crying a lot lately.",
+        "It feels like the world is against me.",
+        "I don't see a way out of this sadness.",
+        "I've lost interest in everything.",
+        "I'm finding it difficult to cope with life.",
+        "The sadness is overwhelming.",
+        "I'm carrying a heavy emotional burden.",
+        "I'm experiencing deep sorrow",
+        "I feel like I'm in a dark tunnel",
+        "The weight of sadness is unbearable",
+        "I'm engulfed in a sea of sadness"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling sad. Is there anything specific you'd like to talk about?",
+        "I'm here to listen and support you. Let's find a way to make you feel better.",
+        "Remember that you're not alone. Reach out to someone close to you for support."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bad",
+      "patterns": [
+        "bad",
+        "terrible",
+        "awful",
+        "disappointing",
+        "I'm not satisfied with the service",
+        "I'm disappointed",
+        "This is not what I expected",
+        "I'm not happy with your service",
+        "you are so bad",
+        "I dont like you",
+        "I hate you",
+        "you are not good",
+        "I had a bad experience",
+        "It's been a letdown",
+        "Your service is subpar",
+        "I'm frustrated with your service",
+        "I regret using your service",
+        "Your service is unacceptable",
+        "I'm dissatisfied with the quality",
+        "This is a disappointment",
+        "Your service needs improvement",
+        "Your service is below my expectations",
+        "I'm displeased with the outcome",
+        "I'm dissatisfied with the results",
+        "This is unacceptable",
+        "I feel cheated",
+        "Your performance is unsatisfactory",
+        "I have a complaint"
+      ],
+      "responses": [
+        "I'm sorry to hear that. How can I assist you?",
+        "I apologize for any inconvenience. Please let me know how I can help.",
+        "I understand. Let's work together to resolve the issue."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "love",
+        "adore",
+        "passionate",
+        "obsessed",
+        "I'm in love!",
+        "Love is in the air.",
+        "I love everything about it.",
+        "Feeling so loved and cherished.",
+        "Head over heels in love.",
+        "You're amazing",
+        "I'm smitten",
+        "This is pure love",
+        "I'm deeply in love",
+        "I'm madly in love",
+        "Love is my strength",
+        "I'm overflowing with love",
+        "Love is all I need",
+        "My heart is full of love"
+      ],
+      "responses": [
+        "Love is a beautiful thing!",
+        "It's great to hear you're feeling so positive.",
+        "Love is in the air!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "chatbot_type",
+      "patterns": [
+        "I want to create a chatbot",
+        "How can I create a chatbot?",
+        "Tell me about creating a chatbot",
+        "What's involved in building a chatbot?",
+        "I'm interested in chatbot development",
+        "Guide me in creating a chatbot",
+        "I need help with chatbot creation"
+      ],
+      "responses": [
+        "Great! What type of chatbot do you want to create? (e.g., customer support, FAQ, lead generation)",
+        "Could you please specify the type of chatbot you're interested in?",
+        "Tell me more about the chatbot you'd like to build."
+      ],
+      "context": ["chatbot_type"]
+    },
+    {
+      "tag": "chatbot_name",
+      "patterns": [
+        "I want to name my chatbot",
+        "How can I give a name to my chatbot?",
+        "Help me with naming my chatbot",
+        "What should I name my chatbot?",
+        "I'm looking for chatbot naming suggestions"
+      ],
+      "responses": ["Awesome! What would you like to name your chatbot?"],
+      "context": ["chatbot_name"]
+    },
+    {
+      "tag": "chatbot_color",
+      "patterns": [
+        "I want to choose a color for my chatbot",
+        "How can I select a color theme for my chatbot?",
+        "Help me with chatbot color selection",
+        "What color should my chatbot have?",
+        "I'm looking for chatbot color options"
+      ],
+      "responses": [
+        "Nice choice! What color theme would you like for your chatbot?"
+      ],
+      "context": ["chatbot_color"]
+    },
+    {
+      "tag": "chatbot_platform",
+      "patterns": [
+        "How can I deploy my chatbot?",
+        "What are the deployment options?",
+        "Where can I use my chatbot?",
+        "Can I integrate my chatbot with my website?",
+        "Tell me about chatbot deployment"
+      ],
+      "responses": [
+        "That's important! Which platform do you plan to deploy your chatbot on? (e.g., website, mobile app, Facebook Messenger)"
+      ],
+      "context": ["chatbot_platform"]
+    },
+    {
+      "tag": "chatbot_features",
+      "patterns": [
+        "What features can my chatbot have?",
+        "Tell me about chatbot capabilities",
+        "What can my chatbot do?",
+        "I'm looking for chatbot functionalities",
+        "Guide me in chatbot feature selection"
+      ],
+      "responses": [
+        "Sounds good! What features would you like your chatbot to have? (e.g., natural language processing, user authentication, integration with CRM)"
+      ],
+      "context": ["chatbot_features"]
+    },
+    {
+      "tag": "chatbot_knowledge",
+      "patterns": [
+        "What knowledge should my chatbot have?",
+        "Tell me about chatbot knowledge base",
+        "How can I equip my chatbot with information?",
+        "Guide me in chatbot knowledge configuration",
+        "I'm looking for chatbot knowledge suggestions"
+      ],
+      "responses": [
+        "Great! What specific information or knowledge should your chatbot be equipped with?"
+      ],
+      "context": ["chatbot_knowledge"]
+    },
+    {
+      "tag": "chatbot_help",
+      "patterns": [
+        "How can I get help?",
+        "I need assistance",
+        "Can you assist me?",
+        "I'm confused and need guidance",
+        "Help me with my chatbot"
+      ],
+      "responses": [
+        "Of course! I'm here to help. Please let me know what you need assistance with."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "chatbot_personalization",
+      "patterns": [
+        "Can I personalize my chatbot?",
+        "Is customization possible?",
+        "Can I change the appearance?",
+        "Is it customizable?",
+        "How can I make my chatbot unique?"
+      ],
+      "responses": [
+        "Absolutely! You can personalize your chatbot's name, color theme, and more. Let me know what specific changes you'd like to make."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "chatbot_functionality",
+      "patterns": [
+        "What can my chatbot do?",
+        "How does it function?",
+        "Tell me about its capabilities",
+        "What are the features?",
+        "What functionalities does my chatbot have?"
+      ],
+      "responses": [
+        "Your chatbot can handle customer inquiries, provide information, assist with tasks, and more. It can be customized to meet your specific needs. Let's discuss the features you'd like to include."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "chatbot_deployment",
+      "patterns": [
+        "How can I deploy my chatbot?",
+        "What are the deployment options?",
+        "Where can I use it?",
+        "Can I integrate it with my website?",
+        "Tell me about chatbot deployment"
+      ],
+      "responses": [
+        "You can deploy your chatbot on various platforms, including websites, mobile apps, and messaging platforms like Facebook Messenger. Integration with your website ispossible. Let's discuss your deployment preferences."
+      ],
+      "context": [""]
+    }
+  ]
+}
